@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="?android:attr/buttonBarStyle" >
+    
+    <TextView 
+        android:id="@+id/lblUnitsSetting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtUnitSetting"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/hintGrey"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+    
+	   <Spinner 
+	       android:id="@+id/spnUnits"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       
+	       />
+	   
+	   <LinearLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:layout_marginTop="30dp">
+	       
+	       <View
+            android:id="@+id/divSaveLeft"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:background="?android:attr/dividerVertical"
+            />
+	       
+	       <Button 
+	       android:id="@+id/btnSave"
+	       android:layout_width="0dp"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="2"
+	       android:text="@string/txtSave"
+	       android:textColor="@color/fntBlue"
+	       android:onClick="onClickSave"
+	       style="?android:attr/buttonBarButtonStyle"
+	       />
+	       
+	       <View
+            android:id="@+id/divSaveRight"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:background="?android:attr/dividerVertical"
+            />
+	       
+	   </LinearLayout>
+   
+   </LinearLayout>

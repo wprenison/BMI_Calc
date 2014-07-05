@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintWeigth">Enter your Weigth(kg)</string>
+    <string name="hintHeight">Enter your Height(m)</string>
+    <string name="txtClear">Clear</string>
+    <string name="txtCalculate">Calculate BMI</string>
+    <string name="txtExit">Exit</string>
+    <string name="txtUnitSetting">Units:</string>
+    <string name="spnrItemMetric">Metric (km, m)</string>
+    <string name="spnrItemImperial">Imperial (lbs, ft)</string>
+    <string name="txtSave">Save</string>
+    <string name="txtCalcIdeal">Calculate Ideal Weight</string>
+
+</resources>
